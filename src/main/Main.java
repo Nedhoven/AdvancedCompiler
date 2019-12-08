@@ -2,9 +2,11 @@
 package main;
 
 import main.frontend.Parser;
+
 import main.graph.ControlFlowGraph;
 import main.graph.DominatorTreeGenerator;
 import main.graph.VCGGraphGenerator;
+
 import main.optimizer.CP;
 import main.optimizer.CSE;
 import main.optimizer.RegisterAllocation;
